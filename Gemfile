@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
+gem 'jquery-rails'
+gem 'turbolinks'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -23,9 +25,14 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 2.3.2.1'
-end
+  gem 'rails_12factor', group: :production
+  gem 'jbuilder', '~>1.2'
 
-gem 'jquery-rails'
+  group :doc do
+  	  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
