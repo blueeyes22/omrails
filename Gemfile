@@ -5,8 +5,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
 gem 'simple_form'
-gem "paperclip", "~> 3.0"
-gem "cocaine", "= 0.3.2" 
+gem "paperclip", "~> 3.4.2"
+gem "cocaine", "= 0.5.0" 
 gem "aws-sdk"
 
 
