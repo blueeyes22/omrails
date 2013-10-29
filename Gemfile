@@ -9,6 +9,8 @@ gem "paperclip", "~> 3.4.2"
 gem "cocaine", "= 0.5.0" 
 gem "aws-sdk"
 gem "faker"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
 
 
 # Bundle edge Rails instead:
