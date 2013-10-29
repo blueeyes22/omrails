@@ -8,6 +8,7 @@ gem 'simple_form'
 gem "paperclip", "~> 3.4.2"
 gem "cocaine", "= 0.5.0" 
 gem "aws-sdk"
+gem "faker"
 
 
 # Bundle edge Rails instead:
